@@ -1,0 +1,165 @@
+@media screen and (max-width: 420px) {.wrimagecard {box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);} }
+@media screen and (max-width: 9000px) {.wrimagecard-topimage_title {padding-left: 25px; padding-right: 25px;} }
+@media screen and (max-width: 420px) {.wrimagecard-topimage_title {padding-left: 10px; padding-right: 10px;} }
+@media screen and (max-width: 9000px) {.wrimagecard-topimage_title {max-height: 75px;} }
+
+.wrimagecard_search {margin-top: 0;
+margin-bottom: 1.5rem;
+text-align: left;
+position: relative;
+background-color: #00004d;
+box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+border-radius: 4px;
+transition: all 0.5s ease;
+max-height: 60px;
+}
+
+.wrimagecard_search:hover{
+  opacity: 0.75;
+}
+
+.wrimagecard_search h5{
+  color: #fff;
+}
+
+.wrimagecard .fa{
+	position: relative;
+    font-size: 70px;
+}
+.wrimagecard-topimage_header{
+padding: 20px;
+border-radius: 8px 8px 0px 0px;
+}
+a.wrimagecard:hover, .wrimagecard-topimage:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+.wrimagecard-topimage a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.wrimagecard-topimage_title {
+    padding: 12px 0px;
+    height: 80px;
+    padding-bottom: 0.75rem;
+    position: relative;
+
+}
+
+.wrimagecard-topimage_title h5 {
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+.wrimagecard-topimage a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
+}
+
+
+
+
+#FreedomOfInformationBackground{
+  background-color:rgba(187, 120, 36, 0.1)}
+
+#FreedomOfInformationIcon{
+  color:#BB7824
+}
+
+#FreedomofInformationBottom{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#CryptoCurrencyBackground{
+  background-color: rgba(37,7,133, 0.2);
+}
+
+#CryptoCurrencyIcon{
+  color:#250785;
+}
+
+#CryptoCurrencyBottom{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#PrivacyBackground{
+  background-color: rgba(213, 15, 37, 0.1);
+}
+
+#PrivacyIcon{
+  color:#d50f25;
+}
+
+#PrivacyBottom{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#ImmigrationBackground{
+  background-color:  rgba(51, 105, 232, 0.1);
+}
+
+#ImmigrationIcon{
+  color:#3369e8;
+}
+
+#ImmigrationBottom{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#FirearmsBackground{
+  background-color:  rgba(250, 188, 9, 0.1);
+}
+
+#FirearmsIcon{
+  color:#fabc09;
+}
+
+#FirearmsBottom{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#CannabisBackground{
+  background-color: rgba(22, 160, 133, 0.1);
+}
+
+#CannabisIcon{
+  color:#16A085;
+}
+
+#CannabisBottom{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#TaxesBackground{
+  background-color: rgba(22, 160, 133, 0.1);
+}
+
+#TaxesIcon{
+   color:#16A085;
+ }
+
+ #TaxesBottom{
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ #SmallBusinessBackground{
+   background-color: rgba(121, 90, 71, 0.1);
+ }
+
+ #SmallBusinessIcon{
+   color:#795a47;
+ }
+
+#SmallBusinessBottom{
+  padding-left: 10px;
+  padding-right: 10px;
+}
