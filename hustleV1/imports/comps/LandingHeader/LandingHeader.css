@@ -100,7 +100,11 @@ height: 90vh;
   color: white;
 }
 
-
+.buttoncol{
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+}
 #listservicebutton span{
   font-size: 20px;
   font-weight: 500;
@@ -164,13 +168,38 @@ height: 90vh;
   }
 }
 
+@media screen and (max-width: 1000px) {
+
+  #findservicebutton{
+    margin-top: 35px;
+  }
+  #listservicebutton{
+    margin-top: 35px;
+  }
+
+  #Logo {
+    margin-top: 150px;
+  }
+  .modal-dialog{
+    margin-top: 190px;
+  }
+  #LeftChevron{
+    transform: translate(-155px);
+    color: rgba(192, 192, 192, 1);
+  }
+  #RightX{
+    transform: translate(155px);
+    color: rgba(192, 192, 192, 1);
+  }
+}
+
 @media screen and (max-width: 500px) {
 
   #findservicebutton{
-    margin-top: 25px;
+    margin-top: 40px;
   }
   #listservicebutton{
-    margin-top: 25px;
+    margin-top: 40px;
   }
   #Logo {
     margin-top: 70px;
@@ -194,7 +223,14 @@ height: 90vh;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
+
+  #findservicebutton{
+    margin-top: 25px;
+  }
+  #listservicebutton{
+    margin-top: 25px;
+  }
 
   #SignUpRow{
     margin-right: 30px;
@@ -306,8 +342,27 @@ height: 90vh;
 }
 
 @media screen and (max-width: 320px) {
+
+  #listservicebutton span{
+    font-size: 17px;
+  }
+  #findservicebutton span{
+    font-size: 17px;
+  }
+  #findservicebutton{
+    margin-top: 25px;
+    margin-right: 5px;
+  }
+  #listservicebutton{
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+
+
   #alert-signup {
     padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
