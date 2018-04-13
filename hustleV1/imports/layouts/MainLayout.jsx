@@ -14,6 +14,7 @@ import TrackImpact from '../comps/TrackImpact/TrackImpact.jsx';
 import Results from '../comps/Results/Results.jsx';
 import IndividualLawPage from '../comps/IndividualLawPage/IndividualLawPage.jsx';
 import BusinessQuiz from '../comps/quizzes/BusinessQuiz.jsx';
+import ContractorSignUp from '../comps/Forms/ContractorSignUp.jsx';
 import Home from './Home.jsx';
 import Demo from './Demo.jsx';
 

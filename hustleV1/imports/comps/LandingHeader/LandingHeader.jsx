@@ -72,8 +72,8 @@ export default class LandingHeader extends Component{
               <h4>Gigs by students, for students.</h4>
               </Col>
               <Col md="12" sm="12" xs="12" className="text-center" id="alert-signup" >
-                <Button color="primary" id="findservicebutton"><span>Find a service</span></Button>
-                <Button color="primary" id="listservicebutton"><span>List a service</span></Button>
+                <Button color="primary" id="findservicebutton" href="https://docs.google.com/a/columbia.edu/forms/d/1h7gUQNtDyD-H_3iCQCTtcqIWdl9roMZgAzJqn9QPNGk/edit?usp=drive_web"><span>Find a service</span></Button>
+                <Button color="primary" id="listservicebutton" href="https://docs.google.com/forms/d/e/1FAIpQLSfC-Rrg5R8RaxswJLqSS34p_6IyYPtmVEOroxi-I4CPVIchQQ/viewform"><span>List a service</span></Button>
               </Col>
           </Col>
         </Row>
