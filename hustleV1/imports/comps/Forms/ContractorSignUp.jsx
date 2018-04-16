@@ -27,6 +27,9 @@ export default class ContractorSignUp extends Component {
     language: false,
     headshots: false,
     tutoring: false,
+    laundry: false,
+    apartments: false,
+    graphicdesign: false,
   };
 
   handleChange = name => event => {
@@ -52,7 +55,7 @@ export default class ContractorSignUp extends Component {
               <Checkbox
                 style={style}
                 checked={this.state.language}
-                onChange={this.handleChange('gilad')}
+                onChange={this.handleChange('language')}
                 value="Teaching a language (You are paid $15 - $20 / hr)"
               />
             }
@@ -63,7 +66,7 @@ export default class ContractorSignUp extends Component {
               <Checkbox
                 style={style}
                 checked={this.state.headshots}
-                onChange={this.handleChange('jason')}
+                onChange={this.handleChange('headshots')}
                 value="Professional Headshots (You are paid $20 - $30 / hr)"
               />
             }
@@ -74,7 +77,7 @@ export default class ContractorSignUp extends Component {
               <Checkbox
                 style={style}
                 checked={this.state.tutoring}
-                onChange={this.handleChange('antoine')}
+                onChange={this.handleChange('tutoring')}
                 value="Tutoring (You are paid $15 - $25 / hr)"
               />
             }
@@ -84,9 +87,9 @@ export default class ContractorSignUp extends Component {
             control={
               <Checkbox
                 style={style}
-                checked={this.state.tutoring}
-                onChange={this.handleChange('antoine')}
-                value="Tutoring (You are paid $15 - $25 / hr)"
+                checked={this.state.laundry}
+                onChange={this.handleChange('laundry')}
+                value="Doing laundry (You are paid $20 / hr)"
               />
             }
             label="Doing laundry (You are paid $20 / hr)"
@@ -95,9 +98,9 @@ export default class ContractorSignUp extends Component {
             control={
               <Checkbox
                 style={style}
-                checked={this.state.tutoring}
-                onChange={this.handleChange('antoine')}
-                value="Tutoring (You are paid $15 - $25 / hr)"
+                checked={this.state.apartments}
+                onChange={this.handleChange('apartments')}
+                value="Cleaning apartments (You are paid $20 - $30 / hr)"
               />
             }
             label="Cleaning apartments (You are paid $20 - $30 / hr)"
@@ -106,9 +109,9 @@ export default class ContractorSignUp extends Component {
             control={
               <Checkbox
                 style={style}
-                checked={this.state.tutoring}
-                onChange={this.handleChange('antoine')}
-                value="Tutoring (You are paid $15 - $25 / hr)"
+                checked={this.state.graphicdesign}
+                onChange={this.handleChange('graphicdesign')}
+                value="Graphic design (You are paid $20 - $40 / hr)"
               />
             }
             label="Graphic design (You are paid $20 - $40 / hr)"

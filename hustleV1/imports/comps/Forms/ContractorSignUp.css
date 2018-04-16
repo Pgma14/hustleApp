@@ -16,6 +16,15 @@ form {
 
 .MuiTypography-body1-58{
   color: white !important;
+  width: auto;
+}
+
+.formtext{
+  float: left;
+}
+
+.MuiFormGroup-root-11{
+  width: 380px;
 }
 .textinput{
   display: block;
