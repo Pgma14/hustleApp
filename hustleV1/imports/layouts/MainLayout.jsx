@@ -29,6 +29,7 @@ const MainLayout = () => {
         <Router>
           <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/" component={ContractorSignUp} />
           </Switch>
         </Router>
       </main>

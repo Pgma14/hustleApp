@@ -1,0 +1,42 @@
+#ContractorSignUpFormWrapper{
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+form {
+  height: auto;
+}
+
+.formtext{
+  color: white;
+  font-weight: 400;
+  font-size: 23px;
+  padding-top: 30px;
+}
+
+.MuiTypography-body1-58{
+  color: white !important;
+}
+.textinput{
+  display: block;
+  width: 300px;
+  color: white !important;
+  background-color: transparent;
+  border-radius: 0px;
+  margin: auto;
+}
+
+.inputwrapper{
+  height: auto;
+  width: 300px;
+  margin: auto;
+}
+.textinput::placeholder{
+  color: white;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}

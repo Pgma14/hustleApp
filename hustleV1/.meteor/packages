@@ -22,3 +22,8 @@ insecure@1.0.7                # Allow all DB writes from clients (for prototypin
 ultimatejs:tracker-react
 accounts-base
 themeteorchef:bert
+aldeed:collection2@3.0.0
+react-meteor-data
+msavin:mongol
+accounts-password
+session
