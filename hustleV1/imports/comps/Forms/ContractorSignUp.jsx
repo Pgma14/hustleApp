@@ -44,7 +44,7 @@ export default class ContractorSignUp extends Component {
         <Row>
           <Col md="12" sm="12" xs="12">
 
-            <div className="inputwrapper">
+            <div className="inputwrapper animated fadeInLeft">
               <input className="textinput" type="e-mail" placeholder="E-mail">
               </input>
 
