@@ -30,6 +30,7 @@ export default class ContractorSignUp extends Component {
     laundry: false,
     apartments: false,
     graphicdesign: false,
+    other: false,
   };
 
   handleChange = name => event => {
@@ -116,6 +117,18 @@ export default class ContractorSignUp extends Component {
             }
             label="Graphic design (You are paid $20 - $40 / hr)"
           />
+
+          <div id="otherinputwrapper">
+              <Checkbox
+                style={style}
+                checked={this.state.other}
+                onChange={this.handleChange('other')}
+                value="other"
+              />
+            <input className="textinput" id="otherinput" type="text" placeholder="Other">
+            </input>
+          </div>
+
         </FormGroup>
 
       </FormControl>
