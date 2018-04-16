@@ -49,7 +49,7 @@ export default class ContractorSignUp extends Component {
               </input>
 
               <FormControl component="fieldset">
-        <FormLabel component="legend"><h5 className="formtext">Services you can provide</h5></FormLabel>
+        <FormLabel component="legend"><h5 className="formtext">Services you can provide:</h5></FormLabel>
         <FormGroup>
           <FormControlLabel
             control={
@@ -129,6 +129,7 @@ export default class ContractorSignUp extends Component {
             </input>
           </div>
 
+          <button id="formsubmitbutton"><span>Submit</span></button>
         </FormGroup>
 
       </FormControl>
