@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { render, ReactDOM } from 'react-dom';
 import {Container, Row, Col} from 'reactstrap';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
@@ -12,6 +13,9 @@ import {
   FormHelperText,
 } from 'material-ui/Form';
 import Checkbox from 'material-ui/Checkbox';
+import { withTracker } from 'meteor/react-meteor-data';
+
+import { Users } from '../../collections.js';
 
 
 import './ContractorSignUp.css';
@@ -23,6 +27,29 @@ import './ContractorSignUp.css';
   };
 
 export default class ContractorSignUp extends Component {
+
+
+  constructor(props) {
+    super(props);
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+
+    // Find the text field via the React ref
+    const user = this.refs.emailInput.value.trim();
+
+    Users.insert({
+      user,
+      createdAt: new Date(), // current time
+    });
+
+    // Clear form
+    this.refs.emailInput.value = '';
+  }
+
   state = {
     language: false,
     headshots: false,
@@ -44,9 +71,10 @@ export default class ContractorSignUp extends Component {
         <Row>
           <Col md="12" sm="12" xs="12">
 
+            <form onSubmit={this.handleSubmit.bind(this)}>
             <div className="inputwrapper animated fadeInLeft">
 
-              <input className="textinput" type="e-mail" placeholder="E-mail">
+              <input className="textinput" type="e-mail" placeholder="E-mail" ref="emailInput">
               </input>
 
               <FormControl component="fieldset">
@@ -131,11 +159,13 @@ export default class ContractorSignUp extends Component {
             </input>
           </div>
 
-          <button id="formsubmitbutton"><span>Submit</span></button>
+          <button id="formsubmitbutton" onClick={this.handleSubmit.bind(this)}><span>Submit</span></button>
         </FormGroup>
 
       </FormControl>
             </div>
+
+            </form>
 
           </Col>
         </Row>
