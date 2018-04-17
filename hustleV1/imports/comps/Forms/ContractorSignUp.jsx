@@ -45,10 +45,12 @@ export default class ContractorSignUp extends Component {
           <Col md="12" sm="12" xs="12">
 
             <div className="inputwrapper animated fadeInLeft">
+
               <input className="textinput" type="e-mail" placeholder="E-mail">
               </input>
 
               <FormControl component="fieldset">
+
         <FormLabel component="legend"><h5 className="formtext">Services you can provide:</h5></FormLabel>
         <FormGroup>
           <FormControlLabel

@@ -7,6 +7,10 @@ form {
   height: auto;
 }
 
+.MuiTypography-root-49.MuiTypography-body1-58.MuiFormControlLabel-label-15{
+  float: left !important;
+}
+
 .formtext{
   color: white;
   font-weight: 400;
@@ -87,4 +91,29 @@ input {
   border-top: none;
   border-left: none;
   border-right: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  .MuiTypography-root-49.MuiTypography-body1-58.MuiFormControlLabel-label-15{
+    width: 185px;
+  }
+
+  .MuiFormGroup-root-11{
+  width: auto;
+}
+
+.inputwrapper{
+  padding-top: 30px;
+  width: 260px;
+}
+
+.textinput{
+  width: 200px;
+}
+
+.formtext{
+  float: left  !important;
+  width: 260px;
+}
 }

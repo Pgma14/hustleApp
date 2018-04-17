@@ -236,10 +236,6 @@ height: auto;
     margin-right: 30px;
   }
 
-  #Header_Col{
-    height: 570px;
-  }
-
   #LeftChevron{
     transform: translate(-70px);
     color: rgba(192, 192, 192, 1);
